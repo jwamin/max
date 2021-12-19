@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1452.0, 921.0 ],
+		"rect" : [ -1699.0, 72.0, 1052.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,15 +68,27 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 697.0, 365.0, 24.0, 24.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 764.0, 290.384608268737793, 24.0, 24.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_longname" : "button",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "button",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "button"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -89,6 +101,28 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-2" : [ "button", "button", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"parameter_map" : 		{
+			"midi" : 			{
+				"button" : 				{
+					"srcname" : "36.note.9.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3
+				}
+
+			}
+
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
